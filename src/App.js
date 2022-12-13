@@ -1,6 +1,7 @@
 import React from 'react';
 import { Balance } from './components/balance';
 import { Header } from './components/header';
+import { IncomeExpenses } from './components/incomeexpenses';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <div className='container'>
         < Balance />
+        < IncomeExpenses />
       </div>
     </div>
   );
