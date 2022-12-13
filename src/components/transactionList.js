@@ -5,10 +5,10 @@ export const TransactionList = () => {
     return (
         <div>
             <h3>History</h3>
-            <ul id="list" class="list">
+            <ul id="list" className="list">
                 {/* later on the li will be replaced with transaction component */}
-                <li class="minus">
-                    Cash <span>-$400</span><button class="delete-btn">x</button>
+                <li className="minus">
+                    Cash <span>-$400</span><button className="delete-btn">x</button>
                 </li>
             </ul>
         </div>
