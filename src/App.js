@@ -2,6 +2,7 @@ import React from 'react';
 import { Balance } from './components/balance';
 import { Header } from './components/header';
 import { IncomeExpenses } from './components/incomeexpenses';
+import { TransactionList } from './components/transactionList';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className='container'>
         < Balance />
         < IncomeExpenses />
+        < TransactionList />
       </div>
     </div>
   );
