@@ -11,7 +11,7 @@ export const AddTransaction = () => {
         const newTransaction = {
             id: Math.floor(Math.random() * 100000000),
             text,
-            amount
+            amount: +amount //adding a plus sign infront turns it into number. like parseInt
         }
         addTransaction(newTransaction)
     }
