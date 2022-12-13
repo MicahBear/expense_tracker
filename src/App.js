@@ -1,4 +1,5 @@
 import React from 'react';
+import { AddTransaction } from './components/addTransaction';
 import { Balance } from './components/balance';
 import { Header } from './components/header';
 import { IncomeExpenses } from './components/incomeexpenses';
@@ -12,6 +13,7 @@ function App() {
         < Balance />
         < IncomeExpenses />
         < TransactionList />
+        < AddTransaction />
       </div>
     </div>
   );
