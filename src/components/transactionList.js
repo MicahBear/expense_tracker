@@ -5,7 +5,7 @@ export const TransactionList = () => {
     return (
         <div>
             <h3>History</h3>
-            <ul id="list" className="list">
+            <ul className="list">
                 {/* later on the li will be replaced with transaction component */}
                 <li className="minus">
                     Cash <span>-$400</span><button className="delete-btn">x</button>
